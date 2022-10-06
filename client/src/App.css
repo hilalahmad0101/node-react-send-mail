@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control{
+  width: 100%;
+    padding: 10px 8px;
+    margin: 10px 0px;
+    outline: none;
+    border-radius: 9px;
+    border: none;
+    border: 2px solid rgb(226, 66, 66);
+}
+.btn{
+  outline: none;
+  border: none;
+  padding: 10px 27px;
+  font-size: 22px;
+  color: white;
+  background: rgb(226, 66, 66)  ;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
